@@ -1,8 +1,8 @@
 ## Páginas GitHub
 
-Esta página pode ser editada usando o [editor on GitHub](https://github.com/mariochem/D3-JavaScript/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
+Esta página pode ser editada usando o [editor on GitHub](https://github.com/mariochem/D3-JavaScript/edit/main/index.md) para manter e prever o contúdo deste website em arquivos Markdown.
 
-Mostra o grafico da pressao de vapor em funcao da temperatura.[Veja o gráfico](https://mariochem.github.io/D3-JavaScript/vapor-press.html)
+Mostra um gráfico da pressão de vapor em função da temperatura.[Veja o gráfico](https://mariochem.github.io/D3-JavaScript/vapor-press.html)
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
