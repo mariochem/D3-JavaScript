@@ -9,12 +9,12 @@
 
 
 <!--Step 2-->
-<svg width="600" height="700"></svg>
+<svg width="600" height="600"></svg>
 <script>
         // Step 1
         var dataset1 = [ [5, 87.21], [10, 122.7], [15,170.51],
             [20, 233.90], [25, 316.90], [30, 424.60],
-            [35, 562.80], [40, 738.4], [45, 959.3],[50, 1234.9],[55, 1575.8], [60, 1994.0], [65, 2503.0], [ 70, 3119.];
+            [35, 562.80], [40, 738.4], [45, 959.3],[50, 1234.9],[55, 1575.8], [60, 1994.0], [65, 2503.0], [ 70, 3119.]];
     
      
    /*
@@ -91,7 +91,7 @@
             height = svg.attr("height") - margin //200
 
         // Step 4 
-        var xScale = d3.scaleLinear().domain([0, 70]).range([0, width]),
+        var xScale = d3.scaleLinear().domain([0, 100]).range([0, width]),
             yScale = d3.scaleLinear().domain([0, 4000]).range([height, 0]);
             
         var g = svg.append("g")
