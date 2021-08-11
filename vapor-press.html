@@ -85,7 +85,7 @@
 
         // Step 4 
         var xScale = d3.scaleLinear().domain([0.0, 110]).range([0, width]),
-            yScale = d3.scaleLinear().domain([0.0, 110]).range([height, 0]);
+            yScale = d3.scaleLinear().domain([0.0, 200]).range([height, 0]);
             
         var g = svg.append("g")
             .attr("transform", "translate(" + 100 + "," + 100 + ")");
