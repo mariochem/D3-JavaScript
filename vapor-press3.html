@@ -47,7 +47,7 @@ d3.csv("https://raw.githubusercontent.com/mariochem/D3-JavaScript/main/data_IC.c
 
   // Add Y axis
   var y = d3.scaleLinear()
-    .domain([-10, 500])
+    .domain([-20, 500])
     .range([ height, 0 ]);
   svg.append("g")
     .call(d3.axisLeft(y));
