@@ -39,7 +39,7 @@ var data = [ [5.0, 0.8721], [10.0, 1.227], [15.0, 1.7051],
 
   // Add X axis --> it is a date format
   var x = d3.scaleLinear()
-    .domain([1,100])
+    .domain([1,160])
     .range([ 0, width ]);
   svg.append("g")
     .attr("transform", "translate(0," + height + ")")
@@ -47,7 +47,7 @@ var data = [ [5.0, 0.8721], [10.0, 1.227], [15.0, 1.7051],
 
   // Add Y axis
   var y = d3.scaleLinear()
-    .domain([0, 13])
+    .domain([0, 480])
     .range([ height, 0 ]);
   svg.append("g")
     .call(d3.axisLeft(y));
