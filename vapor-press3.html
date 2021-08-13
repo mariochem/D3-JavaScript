@@ -36,8 +36,10 @@
     
 <body>
 <!--Step 2-->
-<svg width="1000" height="700"></svg>
+<!--<svg width="1000" height="700"></svg> -->
     
+<!-- Create a div where the graph will take place -->
+<div id="my_dataviz"></div>    
     
 <script>
       
@@ -50,10 +52,24 @@
     
 
         // Step 3
-        var svg = d3.select("svg"),
-            margin = 200,
-            width = svg.attr("width") - margin, //300
-            height = svg.attr("height") - margin //200
+        
+        // set the dimensions and margins of the graph
+        var margin = {top: 10, right: 30, bottom: 30, left: 60},
+        width = 1000 - margin.left - margin.right,
+        height = 700 - margin.top - margin.bottom;
+        
+        // append the svg object to the body of the page
+        var svg = d3.select("#my_dataviz")
+        .append("svg")
+        .attr("width", width + margin.left + margin.right)
+        .attr("height", height + margin.top + margin.bottom)
+        .append("g")
+        .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+    
+        //var svg = d3.select("svg"),
+        //    margin = 200,
+        //    width = svg.attr("width") - margin, //300
+        //    height = svg.attr("height") - margin //200
 
         // Step 4 
         var xScale = d3.scaleLinear().domain([0.0, 160]).range([0, width]),
