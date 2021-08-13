@@ -39,7 +39,7 @@ d3.csv("https://raw.githubusercontent.com/mariochem/D3-JavaScript/main/data_IC.c
 
   // Add X axis --> it is a date format
   var x = d3.scaleLinear()
-    .domain([1,150])
+    .domain([0,150])
     .range([ 0, width ]);
   svg.append("g")
     .attr("transform", "translate(0," + height + ")")
@@ -61,7 +61,7 @@ d3.csv("https://raw.githubusercontent.com/mariochem/D3-JavaScript/main/data_IC.c
     .append('circle')
       .style("fill", "none")
       .attr("stroke", "black")
-      .attr('r', 8.5)
+      .attr('r', 4.5)
       .style("opacity", 0)
 
   // Create the text that travels along the curve of chart
