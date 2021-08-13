@@ -2,6 +2,10 @@
 <html>
 <head>
 
+</head>
+    
+<body>
+
     
 <!--Step 2-->
 <script src="https://d3js.org/d3.v4.min.js"></script>
@@ -112,22 +116,6 @@ d3.csv("https://raw.githubusercontent.com/holtzy/D3-graph-gallery/master/DATA/da
 
 })
 
-</script>// This allows to find the closest X index of the mouse:
-  var bisect = d3.bisector(function(d) { return d.x; }).left;
-
-  // Create the circle that travels along the curve of chart
-  var focus = svg
-    .append('g')
-    .append('circle')
-      .style("fill", "none")
-      .attr("stroke", "black")
-      .attr('r', 8.5)
-      .style("opacity", 0)
-
-  // Create the text that travels along the curve of chart
-  var focusText = svg
-    .append('g')
-    .append('text')
-      .style("opacity", 0)
-      .attr("text-anchor", "left")
-      .attr("alignment-baseline", "middle")
+</script>
+</body>
+</html>
