@@ -105,7 +105,7 @@ d3.csv("https://raw.githubusercontent.com/mariochem/D3-JavaScript/main/data_IC.c
   function mousemove() {
     // recover coordinate we need
     var x0 = x.invert(d3.mouse(this)[0]);
-    var i = bisect(data, x0, 1);
+    var i = bisect(data, x0, 0.5);
     selectedData = data[i]
     focus
       .attr("cx", x(selectedData.x))
