@@ -1,7 +1,3 @@
-// Navigation Button
-
-function myVolta() {window.location.href='https://mariochem.github.io/D3-JavaScript';}
-
 // Grab Data From File
 
 async function draw()
