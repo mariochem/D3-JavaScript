@@ -9,4 +9,4 @@ Gráfico da pressão de vapor de 150 ºC a 374.14 ºC. [ Veja o gráfico](https:
 Gráfico teste da pressão de vapor de 150 ºC a 374.14 ºC. [ Veja o gráfico](https://mariochem.github.io/D3-JavaScript/vapor-press3.html)
 
 
-Gráfico tipo Scatterplot de temperatura versus humidade. [ Veja o gráfico](https://mariochem.github.io/D3-JavaScript/scatterplot.html)
+Gráfico tipo Scatterplot de temperatura versus umidade. [ Veja o gráfico](https://mariochem.github.io/D3-JavaScript/scatterplot.html)
