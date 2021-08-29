@@ -92,7 +92,7 @@ async function draw()
             .attr('x', -dimensions.containerHeight/2)
             .attr('y', -dimensions.margin.left + 15 )
             .attr('fill', 'black')
-            .html('Temperature &deg; C')
+            .html('Temperature &deg; F')
             .style('transform', 'rotate(270deg)')
             .style('text-anchor', 'middle')
 
