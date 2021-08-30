@@ -1,7 +1,7 @@
 async function draw(el, scale) 
 {
   // Data
-  const dataset = await d3.json('data.json')
+  const dataset = await d3.json('data_heatmap.json')
     dataset.sort((a,b) => a-b)
 
   // Dimensions
