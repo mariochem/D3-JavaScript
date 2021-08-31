@@ -66,7 +66,7 @@ async function draw(el, scale)
       .attr('y', (d,i) => box * ((i/20) | 0))
       .attr('fill', colorScale)
       
-function myVolta() {window.location.href='https://mariochem.github.io/D3-JavaScript';}
+
 
 }
 
