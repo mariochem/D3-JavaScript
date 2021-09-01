@@ -12,4 +12,7 @@ Gráfico teste da pressão de vapor de 150 ºC a 374.14 ºC. [ Veja o gráfico](
 Gráfico tipo Scatterplot de temperatura versus umidade. [ Veja o gráfico](https://mariochem.github.io/D3-JavaScript/scatterplot.html)
 
 Gráfico tipo Heatmap distribuição salarial nos Estados Unidos. [ Veja o gráfico](https://mariochem.github.io/D3-JavaScript/heatmap.html)
+
+Histogramas das condições climáticas de Nova York nos Estados Unidos. [ Veja o gráfico](https://mariochem.github.io/D3-JavaScript/histograma.html)
+
  
