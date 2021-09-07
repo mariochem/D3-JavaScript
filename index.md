@@ -15,4 +15,6 @@ Gráfico tipo Heatmap distribuição salarial nos Estados Unidos. [ Veja o gráf
 
 Histogramas das condições climáticas de Nova York em 365 dias. [ Veja o gráfico](https://mariochem.github.io/D3-JavaScript/histograma.html)
 
+Histórico do preço diário de ações na bolsa. [ Veja o gráfico](https://mariochem.github.io/D3-JavaScript/linechart.html)
+
  
