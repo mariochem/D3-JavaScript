@@ -29,7 +29,7 @@ async function draw() {
     )
 
   const tooltip = d3.select('#tooltip')
-  const tolltipDot = ctr.append('circle')
+  const tooltipDot = ctr.append('circle')
       .attr('r',5)
       .attr('fill', '#fc8781')
       .attr('stroke','black')
@@ -96,7 +96,7 @@ async function draw() {
           const stock = dataset[index-1]
           //console.log(stock)
           // Update Image
-          tolltipDot.style('opacity', 1)
+          tooltipDot.style('opacity', 1)
             .attr('cx', xScale(xAccessor(stock)))
             .attr('cy', yScale(yAccessor(stock)))
             .raise()
